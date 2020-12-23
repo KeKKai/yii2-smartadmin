@@ -1,0 +1,22 @@
+{
+	"name": "denisogr/yii2-smartadmin",
+	"description": "Smartadmin YII2 template with widgets.",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","smartadmin"],
+	"license": "GPL-3.0+",
+	"authors": [
+		{
+			"name": "Denis Porplenko",
+			"email": "denis.porplenko@gmail.com"
+		}
+	],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"denisogr\\smartadmin\\": ""
+		}
+	}
+}
